@@ -52,7 +52,7 @@ while attempt!=0:
             if response == 1:
                 userobj.account_info()
             elif response == 2:
-                userobj.enqiry()
+                userobj.enquiry()
             elif response == 3:
                 newpin = int(input("\nEnter a new 4-digit PIN: "))
                 userobj.pin_change(newpin)
